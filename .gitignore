@@ -32,6 +32,7 @@ temp/
 *.tmp
 
 .git/
+.states/
 
 # Truffle and Ganache
 ganache.db
