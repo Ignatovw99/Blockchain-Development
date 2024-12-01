@@ -1,0 +1,37 @@
+# Node dependencies
+node_modules/
+
+# Build artifacts
+artifacts/
+cache/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+coverage.json
+.solcover.js
+
+# Temporary files
+temp/
+*.tmp
+
+.git/
+
+# Truffle and Ganache
+ganache.db
