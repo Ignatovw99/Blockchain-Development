@@ -35,7 +35,7 @@ contract Crowdfunding {
         require(durationInDays > 0, "Days duration must be greater than zero");
 
         campaignsCount++;
-        uint256 deadline = block.timestamp + (durationInDays);
+        uint256 deadline = block.timestamp + (durationInDays * 1 days);
 
         campaigns[campaignsCount] = Campaign({
             creator: payable(msg.sender),
